@@ -1,9 +1,13 @@
 import React from 'react';
+import Navbar from './components/Navbar';
+
+import 'rbx/index.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World!</h1>
+      <Navbar />
+      <h1 class="title">Hello World!</h1>
     </div>
   );
 }
